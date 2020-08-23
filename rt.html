@@ -1,0 +1,659 @@
+<head>
+	<base href="https://service2.diplo.de/rktermin/">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=10; IE=11">
+	<title>
+		RK-Termin
+	</title>	
+	<link rel="stylesheet" type="text/css" href="style_css/reset.css">	
+	<link rel="stylesheet" type="text/css" media="screen" href="style_css/screen.css">	
+	<link rel="stylesheet" type="text/css" media="print" href="style_css/print.css">	
+	<link rel="stylesheet" type="text/css" media="screen" href="style_css/rktermin.css">
+	
+	<!--[if gte IE 7]><link rel="stylesheet" type="text/css" media="screen" href="style_css/ie7.css" /><![endif]-->	
+	<!--[if gte IE 6]><link rel="stylesheet" type="text/css" media="screen" href="style_css/ie6.css" /><![endif]-->	
+	<!--[if lte IE 5.5000]><link rel="stylesheet" type="text/css" media="screen" href="style_css/ie5.css" /><![endif]-->	
+
+
+	<link rel="stylesheet" type="text/css" href="css/redmond/jquery-ui-1.11.4.custom.min.css">
+	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script> 
+	<script type="text/javascript" src="js/jquery-ui-1.11.4.custom.min.js"></script> 
+<body style="zoom: 0.5;">
+<div id="global">
+
+	<div id="header">
+	
+		<div id="logo">
+			<img src="style_images/auswaertiges-amt-logo-220x120.gif" alt="Auswärtiges Amt">
+		</div>
+		<div id="logo-app" style="background-image:  url('images/auswaertigesamt.gif'); min-height: 54px; width: 78%;">
+			&nbsp;
+		</div>
+		<div id="nav-main" style="min-height: 28px;">
+		
+
+<ul>
+	<li></li>
+</ul>
+		</div>		
+	
+	</div> <!-- end: #header -->			
+
+	
+	<div id="main" class="l-s">
+			
+		<div id="content">
+		
+			<div class="wrapper">	
+			
+
+
+
+<div style="font-size: 14pt; font-weight: bold; margin-bottom: 1em;">
+
+</div>
+
+
+
+
+
+
+
+
+	<fieldset>
+		<legend>Neuer Termin</legend>
+		
+		
+		
+		
+		
+			<div style="font-size: 120%; float: left; width: 20%;">
+				Datum / Uhrzeit:
+			</div>
+			<div style="font-weight: bold;">
+				03.09.2020
+				11:00 
+				—
+				11:30
+			</div><br style="clear: both;">
+			<div style="font-size: 120%; float: left; width: 20%;">
+				Ort:
+			</div>
+			<div style="font-weight: bold;">
+				Shanghai
+			</div><br style="clear: both;">
+		
+		
+		        
+<form id="appointment_newAppointmentForm" name="appointment_newAppointmentForm" onsubmit="startCommitRequest();" action="/rktermin/extern/appointment_addAppointment.do" method="post" class="top">
+			<div id="wwgrp_appointment_newAppointmentForm_lastname" class="input text s">
+<div id="wwlbl_appointment_newAppointmentForm_lastname" class="wwlbl">
+<label for="appointment_newAppointmentForm_lastname" class="label">        Nachname:
+</label></div> 
+<div id="wwctrl_appointment_newAppointmentForm_lastname">
+<input type="text" name="lastname" value="" id="appointment_newAppointmentForm_lastname" class="input text s" onkeypress="doNothing(event)"></div> </div>
+
+			<div id="wwgrp_appointment_newAppointmentForm_firstname" class="input text s">
+<div id="wwlbl_appointment_newAppointmentForm_firstname" class="wwlbl">
+<label for="appointment_newAppointmentForm_firstname" class="label">        Vorname:
+</label></div> 
+<div id="wwctrl_appointment_newAppointmentForm_firstname">
+<input type="text" name="firstname" value="" id="appointment_newAppointmentForm_firstname" class="input text s" onkeypress="doNothing(event)"></div> </div>
+
+			<div id="wwgrp_appointment_newAppointmentForm_email" class="input text s">
+<div id="wwlbl_appointment_newAppointmentForm_email" class="wwlbl">
+<label for="appointment_newAppointmentForm_email" class="label">        E-Mail:
+</label></div> 
+<div id="wwctrl_appointment_newAppointmentForm_email">
+<input type="text" name="email" value="" id="appointment_newAppointmentForm_email" class="input text s" onkeypress="doNothing(event)"></div> </div>
+
+			<div id="wwgrp_appointment_newAppointmentForm_emailrepeat" class="input text s">
+<div id="wwlbl_appointment_newAppointmentForm_emailrepeat" class="wwlbl">
+<label for="appointment_newAppointmentForm_emailrepeat" class="label">        E-Mail wiederholen:
+</label></div> 
+<div id="wwctrl_appointment_newAppointmentForm_emailrepeat">
+<input type="text" name="emailrepeat" value="" id="appointment_newAppointmentForm_emailrepeat" class="input text s" onkeypress="doNothing(event)" onpaste="return false;" autocomplete="off"></div> </div>
+
+			
+			
+			 
+			
+			
+				
+			
+				
+					
+					
+						<div id="wwgrp_appointment_newAppointmentForm_fields_0__content" class="input text l">
+<div id="wwlbl_appointment_newAppointmentForm_fields_0__content" class="wwlbl">
+<label for="appointment_newAppointmentForm_fields_0__content" class="label"><span class="required">*</span>        Nachname des Visumbewerbers / Family name of the visa applicant / 申请人的姓 - 请使用拼音书写！:
+</label></div> 
+<div id="wwctrl_appointment_newAppointmentForm_fields_0__content">
+<input type="text" name="fields[0].content" value="" id="appointment_newAppointmentForm_fields_0__content" class="input text l" onkeypress="doNothing(event)"></div> </div>
+
+					
+				
+
+				
+				
+				
+				
+				
+				<input type="hidden" name="fields[0].definitionId" value="1288" id="appointment_newAppointmentForm_fields_0__definitionId">
+				<input type="hidden" name="fields[0].index" value="0" id="appointment_newAppointmentForm_fields_0__index">
+			
+				
+			
+				
+					
+					
+						<div id="wwgrp_appointment_newAppointmentForm_fields_1__content" class="input text l">
+<div id="wwlbl_appointment_newAppointmentForm_fields_1__content" class="wwlbl">
+<label for="appointment_newAppointmentForm_fields_1__content" class="label"><span class="required">*</span>        Vorname des Visumbewerbers / Given names of the visa applicant / 申请人的名 - 请使用拼音书写！:
+</label></div> 
+<div id="wwctrl_appointment_newAppointmentForm_fields_1__content">
+<input type="text" name="fields[1].content" value="" id="appointment_newAppointmentForm_fields_1__content" class="input text l" onkeypress="doNothing(event)"></div> </div>
+
+					
+				
+
+				
+				
+				
+				
+				
+				<input type="hidden" name="fields[1].definitionId" value="1289" id="appointment_newAppointmentForm_fields_1__definitionId">
+				<input type="hidden" name="fields[1].index" value="1" id="appointment_newAppointmentForm_fields_1__index">
+			
+				
+			
+				
+					
+					
+						<div id="wwgrp_appointment_newAppointmentForm_fields_2__content" class="input text l">
+<div id="wwlbl_appointment_newAppointmentForm_fields_2__content" class="wwlbl">
+<label for="appointment_newAppointmentForm_fields_2__content" class="label"><span class="required">*</span>        Passnummer des Visumbewerbers / Passport No. of the visa applicant / 申请人的护照号码:
+</label></div> 
+<div id="wwctrl_appointment_newAppointmentForm_fields_2__content">
+<input type="text" name="fields[2].content" value="" id="appointment_newAppointmentForm_fields_2__content" class="input text l" onkeypress="doNothing(event)"></div> </div>
+
+					
+				
+
+				
+				
+				
+				
+				
+				<input type="hidden" name="fields[2].definitionId" value="1291" id="appointment_newAppointmentForm_fields_2__definitionId">
+				<input type="hidden" name="fields[2].index" value="2" id="appointment_newAppointmentForm_fields_2__index">
+			
+				
+			
+				
+
+				
+					
+					
+						<div id="wwgrp_fields3content" class="input text l">
+<div id="wwlbl_fields3content" class="wwlbl">
+<label for="fields3content" class="label"><span class="required">*</span>        Geburtsdatum des Visumbewerbers / Date of birth of the visa applicant / 申请人的生日:
+</label></div> 
+<div id="wwctrl_fields3content">
+<input type="text" name="fields3content" value="" readonly="readonly" id="fields3content" class="input text l hasDatepicker"></div> </div>
+
+					
+					<input type="hidden" name="fields[3].content" value="" id="fields3contenthidden">
+					<script>
+						$(function() {
+							$("#fields3content").datepicker({
+								dateFormat : 'dd.mm.yy',
+								changeMonth: true,
+							    changeYear: true,
+							    minDate: '-100y',
+							    maxDate: '+50y',
+							    yearRange: 'c-100:c+50',
+							    onSelect: function (dateText, source) {
+							    	if(dateText != null && dateText != ''){
+							    		var dp = dateText.split('.');
+							    		var newDp = dp[2] + '-' + dp[1] + '-' + dp[0];
+							    		$("#fields3contenthidden").val(newDp);
+							    	} 
+							    	
+							    },
+								
+							});
+							var repeat = $("#fields3contenthidden").val();
+							if(repeat) {
+								var dp = repeat.split('-');
+								var newDp = dp[0];
+								if(dp.length>1) {
+									newDp = dp[2] + '.' + dp[1] + '.' + dp[0];
+								}
+								$("#fields3content").val(newDp);
+							}
+						});
+					</script>
+				
+				
+				
+				
+				
+				<input type="hidden" name="fields[3].definitionId" value="1290" id="appointment_newAppointmentForm_fields_3__definitionId">
+				<input type="hidden" name="fields[3].index" value="3" id="appointment_newAppointmentForm_fields_3__index">
+			
+				
+			
+				
+					
+					
+						<div id="wwgrp_appointment_newAppointmentForm_fields_4__content" class="input text l">
+<div id="wwlbl_appointment_newAppointmentForm_fields_4__content" class="wwlbl">
+<label for="appointment_newAppointmentForm_fields_4__content" class="label"><span class="required">*</span>        Telefonnummer des Visumbewerbers / telephone number of the visa applicant / 申请人的电话:
+</label></div> 
+<div id="wwctrl_appointment_newAppointmentForm_fields_4__content">
+<input type="text" name="fields[4].content" value="" id="appointment_newAppointmentForm_fields_4__content" class="input text l" onkeypress="doNothing(event)"></div> </div>
+
+					
+				
+
+				
+				
+				
+				
+				
+				<input type="hidden" name="fields[4].definitionId" value="1293" id="appointment_newAppointmentForm_fields_4__definitionId">
+				<input type="hidden" name="fields[4].index" value="4" id="appointment_newAppointmentForm_fields_4__index">
+			
+				
+			
+				
+
+				
+				
+				
+				
+					
+					
+						<div id="wwgrp_appointment_newAppointmentForm_fields_5__content" class="input select l">
+<div id="wwlbl_appointment_newAppointmentForm_fields_5__content" class="wwlbl">
+<label for="appointment_newAppointmentForm_fields_5__content" class="label"><span class="required">*</span>        Aufenthaltszweck in Deutschland / purpose of stay in Germany / 在德国停留的目的 - 请使用拼音书写！:
+</label></div> 
+<div id="wwctrl_appointment_newAppointmentForm_fields_5__content">
+<select name="fields[5].content" id="appointment_newAppointmentForm_fields_5__content" class="input select l">
+    <option value=""></option>
+    <option value="Studium / study / 留学">Studium / study / 留学</option>
+    <option value="Stipendium / scholarship / 奖学金">Stipendium / scholarship / 奖学金</option>
+
+
+</select>
+
+</div> </div>
+					
+					
+				
+				
+				<input type="hidden" name="fields[5].definitionId" value="1292" id="appointment_newAppointmentForm_fields_5__definitionId">
+				<input type="hidden" name="fields[5].index" value="5" id="appointment_newAppointmentForm_fields_5__index">
+			
+				
+			
+				
+
+				
+				
+				
+					
+					
+						<div id="wwgrp_appointment_newAppointmentForm_fields_6__content" class="input checkbox">
+
+
+
+
+<div id="wwctrl_appointment_newAppointmentForm_fields_6__content" class="wwctrl">
+
+<span class="required">*</span>
+<input type="checkbox" name="fields[6].content" value="true" id="appointment_newAppointmentForm_fields_6__content" class="input checkbox"><input type="hidden" id="__checkbox_appointment_newAppointmentForm_fields_6__content" name="__checkbox_fields[6].content" value="true"></div> <div id="wwlbl_appointment_newAppointmentForm_fields_6__content" class="wwlbl">
+<label for="appointment_newAppointmentForm_fields_6__content" class="checkboxLabel">Sind alle Angaben korrekt? Did you fill in all information correctly? 确认输入的信息都正确吗？</label></div> </div>
+
+					
+				
+				
+				
+				<input type="hidden" name="fields[6].definitionId" value="1294" id="appointment_newAppointmentForm_fields_6__definitionId">
+				<input type="hidden" name="fields[6].index" value="6" id="appointment_newAppointmentForm_fields_6__index">
+			
+				
+			
+				
+
+				
+				
+				
+					
+					
+						<div id="wwgrp_appointment_newAppointmentForm_fields_7__content" class="input checkbox">
+
+
+
+
+<div id="wwctrl_appointment_newAppointmentForm_fields_7__content" class="wwctrl">
+
+<span class="required">*</span>
+<input type="checkbox" name="fields[7].content" value="true" id="appointment_newAppointmentForm_fields_7__content" class="input checkbox"><input type="hidden" id="__checkbox_appointment_newAppointmentForm_fields_7__content" name="__checkbox_fields[7].content" value="true"></div> <div id="wwlbl_appointment_newAppointmentForm_fields_7__content" class="wwlbl">
+<label for="appointment_newAppointmentForm_fields_7__content" class="checkboxLabel">Bitte bestätigen Sie die Hinweise zu APS / Please confirm the information about APS</label></div> </div>
+
+					
+				
+				
+				
+				<input type="hidden" name="fields[7].definitionId" value="1924" id="appointment_newAppointmentForm_fields_7__definitionId">
+				<input type="hidden" name="fields[7].index" value="7" id="appointment_newAppointmentForm_fields_7__index">
+			
+				
+			
+				
+					
+					
+						<div id="wwgrp_appointment_newAppointmentForm_fields_8__content" class="input text l">
+<div id="wwlbl_appointment_newAppointmentForm_fields_8__content" class="wwlbl">
+<label for="appointment_newAppointmentForm_fields_8__content" class="label"><span class="required">*</span>        Nachname des Visumbewerbers / Family name of the visa applicant / 申请人的姓 - 请使用拼音书写！:
+</label></div> 
+<div id="wwctrl_appointment_newAppointmentForm_fields_8__content">
+<input type="text" name="fields[8].content" value="" id="appointment_newAppointmentForm_fields_8__content" class="input text l" onkeypress="doNothing(event)"></div> </div>
+
+					
+				
+
+				
+				
+				
+				
+				
+				<input type="hidden" name="fields[8].definitionId" value="2266" id="appointment_newAppointmentForm_fields_8__definitionId">
+				<input type="hidden" name="fields[8].index" value="8" id="appointment_newAppointmentForm_fields_8__index">
+			
+				
+			
+				
+
+				
+					
+					
+						<div id="wwgrp_fields9content" class="input text l">
+<div id="wwlbl_fields9content" class="wwlbl">
+<label for="fields9content" class="label"><span class="required">*</span>        Geburtsdatum des Visumbewerbers / Date of birth of the visa applicant / 申请人的生日:
+</label></div> 
+<div id="wwctrl_fields9content">
+<input type="text" name="fields9content" value="" readonly="readonly" id="fields9content" class="input text l hasDatepicker"></div> </div>
+
+					
+					<input type="hidden" name="fields[9].content" value="" id="fields9contenthidden">
+					<script>
+						$(function() {
+							$("#fields9content").datepicker({
+								dateFormat : 'dd.mm.yy',
+								changeMonth: true,
+							    changeYear: true,
+							    minDate: '-100y',
+							    maxDate: '+50y',
+							    yearRange: 'c-100:c+50',
+							    onSelect: function (dateText, source) {
+							    	if(dateText != null && dateText != ''){
+							    		var dp = dateText.split('.');
+							    		var newDp = dp[2] + '-' + dp[1] + '-' + dp[0];
+							    		$("#fields9contenthidden").val(newDp);
+							    	} 
+							    	
+							    },
+								
+							});
+							var repeat = $("#fields9contenthidden").val();
+							if(repeat) {
+								var dp = repeat.split('-');
+								var newDp = dp[0];
+								if(dp.length>1) {
+									newDp = dp[2] + '.' + dp[1] + '.' + dp[0];
+								}
+								$("#fields9content").val(newDp);
+							}
+						});
+					</script>
+				
+				
+				
+				
+				
+				<input type="hidden" name="fields[9].definitionId" value="2269" id="appointment_newAppointmentForm_fields_9__definitionId">
+				<input type="hidden" name="fields[9].index" value="9" id="appointment_newAppointmentForm_fields_9__index">
+			
+				
+			
+				
+
+				
+				
+				
+					
+					
+						<div id="wwgrp_appointment_newAppointmentForm_fields_10__content" class="input checkbox">
+
+
+
+
+<div id="wwctrl_appointment_newAppointmentForm_fields_10__content" class="wwctrl">
+
+<span class="required">*</span>
+<input type="checkbox" name="fields[10].content" value="true" id="appointment_newAppointmentForm_fields_10__content" class="input checkbox"><input type="hidden" id="__checkbox_appointment_newAppointmentForm_fields_10__content" name="__checkbox_fields[10].content" value="true"></div> <div id="wwlbl_appointment_newAppointmentForm_fields_10__content" class="wwlbl">
+<label for="appointment_newAppointmentForm_fields_10__content" class="checkboxLabel">Termin für Studenten, NICHT Schüler / Appointment for UNIVERSITY student, not school student</label></div> </div>
+
+					
+				
+				
+				
+				<input type="hidden" name="fields[10].definitionId" value="2291" id="appointment_newAppointmentForm_fields_10__definitionId">
+				<input type="hidden" name="fields[10].index" value="10" id="appointment_newAppointmentForm_fields_10__index">
+			
+				
+			
+				
+					
+					
+						<div id="wwgrp_appointment_newAppointmentForm_fields_11__content" class="input text l">
+<div id="wwlbl_appointment_newAppointmentForm_fields_11__content" class="wwlbl">
+<label for="appointment_newAppointmentForm_fields_11__content" class="label"><span class="required">*</span>        Datum der Zulassung :
+</label></div> 
+<div id="wwctrl_appointment_newAppointmentForm_fields_11__content">
+<input type="text" name="fields[11].content" value="" id="appointment_newAppointmentForm_fields_11__content" class="input text l" onkeypress="doNothing(event)"></div> </div>
+
+					
+				
+
+				
+				
+				
+				
+				
+				<input type="hidden" name="fields[11].definitionId" value="7937" id="appointment_newAppointmentForm_fields_11__definitionId">
+				<input type="hidden" name="fields[11].index" value="11" id="appointment_newAppointmentForm_fields_11__index">
+			
+				
+			
+				
+					
+					
+						<div id="wwgrp_appointment_newAppointmentForm_fields_12__content" class="input text l">
+<div id="wwlbl_appointment_newAppointmentForm_fields_12__content" class="wwlbl">
+<label for="appointment_newAppointmentForm_fields_12__content" class="label"><span class="required">*</span>        Name der deutschen Hochschule / Universität:
+</label></div> 
+<div id="wwctrl_appointment_newAppointmentForm_fields_12__content">
+<input type="text" name="fields[12].content" value="" id="appointment_newAppointmentForm_fields_12__content" class="input text l" onkeypress="doNothing(event)"></div> </div>
+
+					
+				
+
+				
+				
+				
+				
+				
+				<input type="hidden" name="fields[12].definitionId" value="7938" id="appointment_newAppointmentForm_fields_12__definitionId">
+				<input type="hidden" name="fields[12].index" value="12" id="appointment_newAppointmentForm_fields_12__index">
+			
+			<div>
+				
+				<div class="input text s">
+					<captcha>
+<div id="_-4673592" style="background:white url('data:image/jpg;base64,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') no-repeat scroll left top;width:350px;height:50px;margin:2em;display:block;">&nbsp;</div>
+</captcha>
+
+ 
+
+				</div>
+				
+				<div class="input submit left">
+					<input type="submit" value="Neues Bild laden" id="appointment_newAppointmentForm_form_newappointment_refreshcaptcha" name="action:appointment_refreshCaptcha">
+
+				</div>
+			</div>
+			<div id="wwgrp_appointment_newAppointmentForm_captchaText" class="input text s">
+<div id="wwlbl_appointment_newAppointmentForm_captchaText" class="wwlbl">
+<label for="appointment_newAppointmentForm_captchaText" class="label">        Bitte geben Sie hier den Text ein, den Sie im Bild über diesem Feld sehen:
+</label></div> 
+<div id="wwctrl_appointment_newAppointmentForm_captchaText">
+<input type="text" name="captchaText" value="" id="appointment_newAppointmentForm_captchaText" class="input text s" onkeypress="checkKey(event)"></div> </div>
+
+			<input type="hidden" name="locationCode" value="shan" id="appointment_newAppointmentForm_locationCode">
+			<input type="hidden" name="realmId" value="96" id="appointment_newAppointmentForm_realmId">
+			<input type="hidden" name="categoryId" value="560" id="appointment_newAppointmentForm_categoryId">
+			<input type="hidden" name="openingPeriodId" value="13551" id="appointment_newAppointmentForm_openingPeriodId">
+			<input type="hidden" name="date" value="03.09.2020" id="appointment_newAppointmentForm_date">
+			<input type="hidden" name="dateStr" value="03.09.2020" id="appointment_newAppointmentForm_dateStr">
+			
+				
+				
+				
+				
+			    <script type="text/javascript">
+			    function checkKey(event){   
+			        if(event.keyCode == 13){
+			            document.appointment_newAppointmentForm.action="extern/appointment_addAppointment.do";
+			            document.appointment_newAppointmentForm.submit();
+			            event.preventDefault();
+			        }
+			    }
+			    function doNothing(event){   
+			        if(event.keyCode == 13){
+			        	event.preventDefault();
+			        	return false;
+			        }
+			    }
+			      </script>
+			<div class="input submit left">
+	<input type="submit" value="Speichern" id="appointment_newAppointmentForm_appointment_addAppointment" name="action:appointment_addAppointment">
+<input type="submit" value="Abbrechen" id="appointment_newAppointmentForm_appointment_cancelAddAppointment" name="action:appointment_cancelAddAppointment">
+</div>      
+
+		
+		</form>
+
+
+
+	</fieldset>
+
+
+
+
+
+<script language="javascript" type="text/javascript">
+
+$(function() {
+	$("#commit-request").dialog({
+		resizable : false,
+		height : 200,
+		width: 350,
+		modal : true,
+		autoOpen: false, 
+		buttons : {
+			/* none */
+		},
+		close: function( event, ui ) {
+			$('#commit-request').dialog('open');
+		}
+	});
+ 	$( "#commit-request-progressbar" ).progressbar({
+	  value: false
+	});
+});
+
+function startCommitRequest(event) {
+	
+	$("#commit-request").css('cursor', 'progress');
+	
+	setTimeout("innerStartCommitRequest()", 500);
+
+	return true;
+	
+}
+
+function innerStartCommitRequest() {
+	$('#commit-request').dialog('open');
+}
+
+</script>
+
+
+
+
+			</div>
+			
+			<div class="bottom"></div>
+			
+		</div>
+		
+		<div id="context">
+		
+			<div class="wrapper">
+				&nbsp;
+			</div>
+			
+		</div>
+		
+	</div> <!-- end: #main -->
+	<div id="footer">
+		
+
+
+
+<div style="min-height: 15px;">
+	<ul>
+		<li>RK-Termin&nbsp;1.2.36.1</li>
+		<li style="margin-left: 5em;">
+			     
+				<a href="extern/dsgvo.do?request_locale=de" target="_blank" title="Information zum Datenschutz und Nutzungshinweise"><img src="images/flags/de.png" alt="Information zum Datenschutz und Nutzungshinweise" title="Information zum Datenschutz und Nutzungshinweise">&nbsp; Information
+					zum Datenschutz und Nutzungshinweise</a>
+			</li>
+	</ul>
+</div>
+
+
+
+	</div>
+</div>
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable" tabindex="-1" role="dialog" aria-describedby="commit-request" aria-labelledby="ui-id-1" style="display: none;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix ui-draggable-handle"><span id="ui-id-1" class="ui-dialog-title">In Bearbeitung ... </span><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" title="Close"><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">Close</span></button></div><div id="commit-request" class="ui-dialog-content ui-widget-content">
+	<p>
+		<span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0; margin-bottom: 100px"></span>
+		<span id="question">
+			<b>bitte haben Sie etwas Geduld ...</b><br>Ihre Anfrage wird bearbeitet. Bitte warten Sie auf eine Antwort. Das Neuladen der Seite verzögert die Bearbeitung.
+		</span>
+		
+	</p>
+	<div id="commit-request-progressbar" style="background: #7192b6;" class="ui-progressbar ui-widget ui-widget-content ui-corner-all ui-progressbar-indeterminate" role="progressbar" aria-valuemin="0">
+	
+		<div style="background: rgba(0,0,0,0) url('images/indet.gif'); opacity:0.25; height:2em;">
+			&nbsp;
+		</div>
+	
+	<div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 100%;"><div class="ui-progressbar-overlay"></div></div></div>
+</div></div></body>
